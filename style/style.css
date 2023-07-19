@@ -100,9 +100,16 @@ nav{
     border-radius: 48px;
     color: #FFF;
     font-size: 17px;
+    cursor: pointer;
+}
+.sign-in:hover{
+    background-color: #4EC5F7;
 }
 .go-rough{
     background-color: #4EC5F7;;
+}
+.go-rough:hover{
+    background-color: #F948B2;
 }
 .banner-img{
     width: 45%;
@@ -659,22 +666,17 @@ small{
         row-gap: 1px;
     }
     .social-icons{
-   
         display: flex;
         /* text-align: center; */
         margin-top: 10px;
         justify-content: space-between;
-
         width: 55%;
         height: 15vh;
         /* margin: auto; */
         /* background-color: #4EC5F7; */
-        font-size: 40px;
-       
+        font-size: 40px; 
     }
     .policy{
-   
-       
         width: 60%;
         height: 5vh;
         gap: 10px;
